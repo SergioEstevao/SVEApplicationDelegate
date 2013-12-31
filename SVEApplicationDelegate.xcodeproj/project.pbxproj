@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFFF9BBD1873232400E035C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF9BBC1873232400E035C7 /* Foundation.framework */; };
+		FFFF9BC21873232400E035C7 /* SVEApplicationDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FFFF9BC11873232400E035C7 /* SVEApplicationDelegate.h */; };
+		FFFF9BC41873232400E035C7 /* SVEApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF9BC31873232400E035C7 /* SVEApplicationDelegate.m */; };
+		FFFF9BCB1873232400E035C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF9BCA1873232400E035C7 /* XCTest.framework */; };
+		FFFF9BCC1873232400E035C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF9BBC1873232400E035C7 /* Foundation.framework */; };
+		FFFF9BCE1873232400E035C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF9BCD1873232400E035C7 /* UIKit.framework */; };
+		FFFF9BD11873232400E035C7 /* libSVEApplicationDelegate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF9BB91873232400E035C7 /* libSVEApplicationDelegate.a */; };
+		FFFF9BD71873232400E035C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFFF9BD51873232400E035C7 /* InfoPlist.strings */; };
+		FFFF9BD91873232400E035C7 /* SVEApplicationDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF9BD81873232400E035C7 /* SVEApplicationDelegateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFFF9BCF1873232400E035C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFF9BB11873232400E035C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFF9BB81873232400E035C7;
+			remoteInfo = SVEApplicationDelegate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFFF9BB71873232400E035C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FFFF9BC21873232400E035C7 /* SVEApplicationDelegate.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FFFF9BB91873232400E035C7 /* libSVEApplicationDelegate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVEApplicationDelegate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFF9BBC1873232400E035C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFFF9BC01873232400E035C7 /* SVEApplicationDelegate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVEApplicationDelegate-Prefix.pch"; sourceTree = "<group>"; };
+		FFFF9BC11873232400E035C7 /* SVEApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVEApplicationDelegate.h; sourceTree = "<group>"; };
+		FFFF9BC31873232400E035C7 /* SVEApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVEApplicationDelegate.m; sourceTree = "<group>"; };
+		FFFF9BC91873232400E035C7 /* SVEApplicationDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVEApplicationDelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFF9BCA1873232400E035C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FFFF9BCD1873232400E035C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FFFF9BD41873232400E035C7 /* SVEApplicationDelegateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVEApplicationDelegateTests-Info.plist"; sourceTree = "<group>"; };
+		FFFF9BD61873232400E035C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFFF9BD81873232400E035C7 /* SVEApplicationDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVEApplicationDelegateTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFFF9BB61873232400E035C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFF9BBD1873232400E035C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFF9BC61873232400E035C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFF9BCB1873232400E035C7 /* XCTest.framework in Frameworks */,
+				FFFF9BCE1873232400E035C7 /* UIKit.framework in Frameworks */,
+				FFFF9BD11873232400E035C7 /* libSVEApplicationDelegate.a in Frameworks */,
+				FFFF9BCC1873232400E035C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFFF9BB01873232400E035C7 = {
+			isa = PBXGroup;
+			children = (
+				FFFF9BBE1873232400E035C7 /* SVEApplicationDelegate */,
+				FFFF9BD21873232400E035C7 /* SVEApplicationDelegateTests */,
+				FFFF9BBB1873232400E035C7 /* Frameworks */,
+				FFFF9BBA1873232400E035C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFF9BBA1873232400E035C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9BB91873232400E035C7 /* libSVEApplicationDelegate.a */,
+				FFFF9BC91873232400E035C7 /* SVEApplicationDelegateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFF9BBB1873232400E035C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9BBC1873232400E035C7 /* Foundation.framework */,
+				FFFF9BCA1873232400E035C7 /* XCTest.framework */,
+				FFFF9BCD1873232400E035C7 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFFF9BBE1873232400E035C7 /* SVEApplicationDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9BC11873232400E035C7 /* SVEApplicationDelegate.h */,
+				FFFF9BC31873232400E035C7 /* SVEApplicationDelegate.m */,
+				FFFF9BBF1873232400E035C7 /* Supporting Files */,
+			);
+			path = SVEApplicationDelegate;
+			sourceTree = "<group>";
+		};
+		FFFF9BBF1873232400E035C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9BC01873232400E035C7 /* SVEApplicationDelegate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFFF9BD21873232400E035C7 /* SVEApplicationDelegateTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9BD81873232400E035C7 /* SVEApplicationDelegateTests.m */,
+				FFFF9BD31873232400E035C7 /* Supporting Files */,
+			);
+			path = SVEApplicationDelegateTests;
+			sourceTree = "<group>";
+		};
+		FFFF9BD31873232400E035C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF9BD41873232400E035C7 /* SVEApplicationDelegateTests-Info.plist */,
+				FFFF9BD51873232400E035C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFFF9BB81873232400E035C7 /* SVEApplicationDelegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFF9BDC1873232400E035C7 /* Build configuration list for PBXNativeTarget "SVEApplicationDelegate" */;
+			buildPhases = (
+				FFFF9BB51873232400E035C7 /* Sources */,
+				FFFF9BB61873232400E035C7 /* Frameworks */,
+				FFFF9BB71873232400E035C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVEApplicationDelegate;
+			productName = SVEApplicationDelegate;
+			productReference = FFFF9BB91873232400E035C7 /* libSVEApplicationDelegate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FFFF9BC81873232400E035C7 /* SVEApplicationDelegateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFF9BDF1873232400E035C7 /* Build configuration list for PBXNativeTarget "SVEApplicationDelegateTests" */;
+			buildPhases = (
+				FFFF9BC51873232400E035C7 /* Sources */,
+				FFFF9BC61873232400E035C7 /* Frameworks */,
+				FFFF9BC71873232400E035C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFFF9BD01873232400E035C7 /* PBXTargetDependency */,
+			);
+			name = SVEApplicationDelegateTests;
+			productName = SVEApplicationDelegateTests;
+			productReference = FFFF9BC91873232400E035C7 /* SVEApplicationDelegateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFF9BB11873232400E035C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sérgio Estêvão";
+			};
+			buildConfigurationList = FFFF9BB41873232400E035C7 /* Build configuration list for PBXProject "SVEApplicationDelegate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFFF9BB01873232400E035C7;
+			productRefGroup = FFFF9BBA1873232400E035C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFF9BB81873232400E035C7 /* SVEApplicationDelegate */,
+				FFFF9BC81873232400E035C7 /* SVEApplicationDelegateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFFF9BC71873232400E035C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFF9BD71873232400E035C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFFF9BB51873232400E035C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFF9BC41873232400E035C7 /* SVEApplicationDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFF9BC51873232400E035C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFF9BD91873232400E035C7 /* SVEApplicationDelegateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFFF9BD01873232400E035C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFF9BB81873232400E035C7 /* SVEApplicationDelegate */;
+			targetProxy = FFFF9BCF1873232400E035C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFFF9BD51873232400E035C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFF9BD61873232400E035C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFFF9BDA1873232400E035C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFFF9BDB1873232400E035C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFFF9BDD1873232400E035C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SVEApplicationDelegate.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVEApplicationDelegate/SVEApplicationDelegate-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FFFF9BDE1873232400E035C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SVEApplicationDelegate.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVEApplicationDelegate/SVEApplicationDelegate-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FFFF9BE01873232400E035C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVEApplicationDelegate/SVEApplicationDelegate-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SVEApplicationDelegateTests/SVEApplicationDelegateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FFFF9BE11873232400E035C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVEApplicationDelegate/SVEApplicationDelegate-Prefix.pch";
+				INFOPLIST_FILE = "SVEApplicationDelegateTests/SVEApplicationDelegateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFF9BB41873232400E035C7 /* Build configuration list for PBXProject "SVEApplicationDelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFF9BDA1873232400E035C7 /* Debug */,
+				FFFF9BDB1873232400E035C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFF9BDC1873232400E035C7 /* Build configuration list for PBXNativeTarget "SVEApplicationDelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFF9BDD1873232400E035C7 /* Debug */,
+				FFFF9BDE1873232400E035C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFFF9BDF1873232400E035C7 /* Build configuration list for PBXNativeTarget "SVEApplicationDelegateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFF9BE01873232400E035C7 /* Debug */,
+				FFFF9BE11873232400E035C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFF9BB11873232400E035C7 /* Project object */;
+}
