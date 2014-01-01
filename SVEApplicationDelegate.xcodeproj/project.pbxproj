@@ -363,7 +363,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SVEApplicationDelegateTests/SVEApplicationDelegateTests-Info.plist";
+				INFOPLIST_FILE = "Tests/SVEApplicationDelegateTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -380,7 +380,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVEApplicationDelegate/SVEApplicationDelegate-Prefix.pch";
-				INFOPLIST_FILE = "SVEApplicationDelegateTests/SVEApplicationDelegateTests-Info.plist";
+				INFOPLIST_FILE = "Tests/SVEApplicationDelegateTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
