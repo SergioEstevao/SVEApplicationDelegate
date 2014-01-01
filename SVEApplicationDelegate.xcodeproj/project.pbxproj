@@ -14,8 +14,7 @@
 		FFFF9BCC1873232400E035C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF9BBC1873232400E035C7 /* Foundation.framework */; };
 		FFFF9BCE1873232400E035C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF9BCD1873232400E035C7 /* UIKit.framework */; };
 		FFFF9BD11873232400E035C7 /* libSVEApplicationDelegate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF9BB91873232400E035C7 /* libSVEApplicationDelegate.a */; };
-		FFFF9BD71873232400E035C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFFF9BD51873232400E035C7 /* InfoPlist.strings */; };
-		FFFF9BD91873232400E035C7 /* SVEApplicationDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF9BD81873232400E035C7 /* SVEApplicationDelegateTests.m */; };
+		FFFF9BEB1874672800E035C7 /* SVEApplicationDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF9BE91874670300E035C7 /* SVEApplicationDelegateTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +49,12 @@
 		FFFF9BC91873232400E035C7 /* SVEApplicationDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVEApplicationDelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFF9BCA1873232400E035C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FFFF9BCD1873232400E035C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		FFFF9BD41873232400E035C7 /* SVEApplicationDelegateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVEApplicationDelegateTests-Info.plist"; sourceTree = "<group>"; };
-		FFFF9BD61873232400E035C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FFFF9BD81873232400E035C7 /* SVEApplicationDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVEApplicationDelegateTests.m; sourceTree = "<group>"; };
+		FFFF9BE21874635400E035C7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FFFF9BE31874635400E035C7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		FFFF9BE41874644D00E035C7 /* SVEApplicationDelegate.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SVEApplicationDelegate.podspec; sourceTree = "<group>"; };
+		FFFF9BE71874670300E035C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFFF9BE81874670300E035C7 /* SVEApplicationDelegateTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SVEApplicationDelegateTests-Info.plist"; sourceTree = "<group>"; };
+		FFFF9BE91874670300E035C7 /* SVEApplicationDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVEApplicationDelegateTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +83,11 @@
 		FFFF9BB01873232400E035C7 = {
 			isa = PBXGroup;
 			children = (
+				FFFF9BE41874644D00E035C7 /* SVEApplicationDelegate.podspec */,
+				FFFF9BE21874635400E035C7 /* LICENSE */,
+				FFFF9BE31874635400E035C7 /* README.md */,
 				FFFF9BBE1873232400E035C7 /* SVEApplicationDelegate */,
-				FFFF9BD21873232400E035C7 /* SVEApplicationDelegateTests */,
+				FFFF9BE51874670300E035C7 /* Tests */,
 				FFFF9BBB1873232400E035C7 /* Frameworks */,
 				FFFF9BBA1873232400E035C7 /* Products */,
 			);
@@ -125,22 +130,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FFFF9BD21873232400E035C7 /* SVEApplicationDelegateTests */ = {
+		FFFF9BE51874670300E035C7 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				FFFF9BD81873232400E035C7 /* SVEApplicationDelegateTests.m */,
-				FFFF9BD31873232400E035C7 /* Supporting Files */,
+				FFFF9BE61874670300E035C7 /* InfoPlist.strings */,
+				FFFF9BE81874670300E035C7 /* SVEApplicationDelegateTests-Info.plist */,
+				FFFF9BE91874670300E035C7 /* SVEApplicationDelegateTests.m */,
 			);
-			path = SVEApplicationDelegateTests;
-			sourceTree = "<group>";
-		};
-		FFFF9BD31873232400E035C7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FFFF9BD41873232400E035C7 /* SVEApplicationDelegateTests-Info.plist */,
-				FFFF9BD51873232400E035C7 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +210,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFFF9BD71873232400E035C7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFFF9BD91873232400E035C7 /* SVEApplicationDelegateTests.m in Sources */,
+				FFFF9BEB1874672800E035C7 /* SVEApplicationDelegateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +243,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FFFF9BD51873232400E035C7 /* InfoPlist.strings */ = {
+		FFFF9BE61874670300E035C7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FFFF9BD61873232400E035C7 /* en */,
+				FFFF9BE71874670300E035C7 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
