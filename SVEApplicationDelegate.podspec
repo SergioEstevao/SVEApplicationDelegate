@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios
   spec.requires_arc = true
-  spec.frameworks = 'UIKit', 'CoreGraphics'
+  spec.frameworks = 'UIKit'
   spec.source_files = 'SVEApplicationDelegate'
 end
