@@ -1,6 +1,6 @@
 # SVEApplicationDelegate [![Build Status](https://travis-ci.org/SergioEstevao/SVEApplicationDelegate.png?branch=develop)](https://travis-ci.org/SergioEstevao/SVEApplicationDelegate)                         
 
-A service oriented ApplicationDelegate.
+A service oriented ApplicationDelegate. Check the rational for this approach [here](http://sergioestevao.com/blog/2014/01/a-better-uiappdelegate/).
 
 SVEApplicationDelegate is tested on iOS 5 and requires ARC. Released under the [MIT license](LICENSE).
 
