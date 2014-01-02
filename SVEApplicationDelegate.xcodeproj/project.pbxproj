@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		580E7843187589B2003D83B7 /* PushNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 580E7842187589B2003D83B7 /* PushNotificationController.m */; };
 		FFFF9BBD1873232400E035C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF9BBC1873232400E035C7 /* Foundation.framework */; };
 		FFFF9BC21873232400E035C7 /* SVEApplicationDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FFFF9BC11873232400E035C7 /* SVEApplicationDelegate.h */; };
 		FFFF9BC41873232400E035C7 /* SVEApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF9BC31873232400E035C7 /* SVEApplicationDelegate.m */; };
@@ -63,6 +64,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		580E7841187589B2003D83B7 /* PushNotificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNotificationController.h; sourceTree = "<group>"; };
+		580E7842187589B2003D83B7 /* PushNotificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushNotificationController.m; sourceTree = "<group>"; };
 		FFFF9BB91873232400E035C7 /* libSVEApplicationDelegate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVEApplicationDelegate.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFF9BBC1873232400E035C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFFF9BC01873232400E035C7 /* SVEApplicationDelegate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVEApplicationDelegate-Prefix.pch"; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 				FFFF9BF818747F0E00E035C7 /* Supporting Files */,
 				FFFF9C2D187481BB00E035C7 /* DataController.h */,
 				FFFF9C2E187481BB00E035C7 /* DataController.m */,
+				580E7841187589B2003D83B7 /* PushNotificationController.h */,
+				580E7842187589B2003D83B7 /* PushNotificationController.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -364,6 +369,7 @@
 				FFFF9C0E18747F0E00E035C7 /* MasterViewController.m in Sources */,
 				FFFF9C0218747F0E00E035C7 /* AppDelegate.m in Sources */,
 				FFFF9C0B18747F0E00E035C7 /* Example.xcdatamodeld in Sources */,
+				580E7843187589B2003D83B7 /* PushNotificationController.m in Sources */,
 				FFFF9BFE18747F0E00E035C7 /* main.m in Sources */,
 				FFFF9C2F187481BB00E035C7 /* DataController.m in Sources */,
 			);
@@ -619,6 +625,7 @@
 				FFFF9BDE1873232400E035C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFFF9BDF1873232400E035C7 /* Build configuration list for PBXNativeTarget "SVEApplicationDelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -627,6 +634,7 @@
 				FFFF9BE11873232400E035C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFFF9C2718747F0E00E035C7 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
@@ -635,6 +643,7 @@
 				FFFF9C2918747F0E00E035C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
