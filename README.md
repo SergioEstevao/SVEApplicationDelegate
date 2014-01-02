@@ -1,4 +1,4 @@
-# SVEApplicationDelegate [![Build Status](https://travis-ci.org/SergioEstevao/SVEApplicationDelegate.png?branch=master)](https://travis-ci.org/SergioEstevao/SVEApplicationDelegate)
+# SVEApplicationDelegate [![Build Status](https://travis-ci.org/SergioEstevao/SVEApplicationDelegate.png?branch=develop)](https://travis-ci.org/SergioEstevao/SVEApplicationDelegate)                         
 
 A service oriented ApplicationDelegate.
 
