@@ -11,11 +11,12 @@
 #import "MasterViewController.h"
 #import "DataController.h"
 #import "PushNotificationController.h"
+#import "LocationController.h"
 
 @implementation AppDelegate
 
 - (NSArray *) services {
-    return @[[DataController sharedInstance], [PushNotificationController sharedInstance]];
+    return @[[DataController sharedInstance], [PushNotificationController sharedInstance], [LocationController sharedInstance]];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

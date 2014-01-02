@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Sérgio Estêvão. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "SVEApplicationDelegate.h"
 
 @interface AppDelegate : SVEApplicationDelegate

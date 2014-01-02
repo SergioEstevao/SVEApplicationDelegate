@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		580E7843187589B2003D83B7 /* PushNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 580E7842187589B2003D83B7 /* PushNotificationController.m */; };
+		580E784618758C1D003D83B7 /* LocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 580E784518758C1D003D83B7 /* LocationController.m */; };
 		FFFF9BBD1873232400E035C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFF9BBC1873232400E035C7 /* Foundation.framework */; };
 		FFFF9BC21873232400E035C7 /* SVEApplicationDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FFFF9BC11873232400E035C7 /* SVEApplicationDelegate.h */; };
 		FFFF9BC41873232400E035C7 /* SVEApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF9BC31873232400E035C7 /* SVEApplicationDelegate.m */; };
@@ -66,6 +67,8 @@
 /* Begin PBXFileReference section */
 		580E7841187589B2003D83B7 /* PushNotificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushNotificationController.h; sourceTree = "<group>"; };
 		580E7842187589B2003D83B7 /* PushNotificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushNotificationController.m; sourceTree = "<group>"; };
+		580E784418758C1D003D83B7 /* LocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationController.h; sourceTree = "<group>"; };
+		580E784518758C1D003D83B7 /* LocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationController.m; sourceTree = "<group>"; };
 		FFFF9BB91873232400E035C7 /* libSVEApplicationDelegate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVEApplicationDelegate.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFF9BBC1873232400E035C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFFF9BC01873232400E035C7 /* SVEApplicationDelegate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVEApplicationDelegate-Prefix.pch"; sourceTree = "<group>"; };
@@ -218,6 +221,8 @@
 				FFFF9C2E187481BB00E035C7 /* DataController.m */,
 				580E7841187589B2003D83B7 /* PushNotificationController.h */,
 				580E7842187589B2003D83B7 /* PushNotificationController.m */,
+				580E784418758C1D003D83B7 /* LocationController.h */,
+				580E784518758C1D003D83B7 /* LocationController.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -369,6 +374,7 @@
 				FFFF9C0E18747F0E00E035C7 /* MasterViewController.m in Sources */,
 				FFFF9C0218747F0E00E035C7 /* AppDelegate.m in Sources */,
 				FFFF9C0B18747F0E00E035C7 /* Example.xcdatamodeld in Sources */,
+				580E784618758C1D003D83B7 /* LocationController.m in Sources */,
 				580E7843187589B2003D83B7 /* PushNotificationController.m in Sources */,
 				FFFF9BFE18747F0E00E035C7 /* main.m in Sources */,
 				FFFF9C2F187481BB00E035C7 /* DataController.m in Sources */,
