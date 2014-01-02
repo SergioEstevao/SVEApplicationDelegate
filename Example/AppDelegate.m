@@ -16,7 +16,12 @@
 @implementation AppDelegate
 
 - (NSArray *) services {
-    return @[[DataController sharedInstance], [PushNotificationController sharedInstance], [LocationController sharedInstance]];
+    static NSArray * _services;
+    static dispatch_once_t _onceTokenServices;
+    dispatch_once(&_onceTokenServices, ^{
+        _services = @[[DataController sharedInstance], [PushNotificationController sharedInstance], [LocationController sharedInstance]];
+    });
+    return _services;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
