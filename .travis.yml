@@ -1,0 +1,2 @@
+language: objective-c
+script: xcodebuild -project SVEApplicationDelegate.xcodeproj -scheme SVEApplicationDelegate -sdk iphonesimulator -configuration Release

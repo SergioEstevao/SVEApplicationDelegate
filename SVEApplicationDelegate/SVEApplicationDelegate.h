@@ -31,4 +31,6 @@
  */
 - (NSArray *) services;
 
+@property (strong, nonatomic) UIWindow *window;
+
 @end

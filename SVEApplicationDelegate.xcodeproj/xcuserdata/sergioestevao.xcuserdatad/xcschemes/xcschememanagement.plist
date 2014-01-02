@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SVEApplicationDelegate.xcscheme</key>
+		<key>Example.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SVEApplicationDelegate.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>FFFF9BC81873232400E035C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFFF9BEF18747F0E00E035C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFFF9C1718747F0E00E035C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
