@@ -10,7 +10,38 @@ Open up the included Xcode project for an example app and the tests.
 
 ## Usage
 
+On your ApplicationDelegate .h file inherit from SVEApplication Delegate.
+
 ``` objc
+#import "SVEApplicationDelegate.h"
+
+@interface AppDelegate : SVEApplicationDelegate
+
+@end
+
+```
+
+Then in your ApplicationDelegate .m file just add the services you need and just configure your Root Controller and you are done.
+
+
+``` objc
+- (NSArray *) services {
+    return @[[DataController sharedInstance], [PushNotificationController sharedInstance], [LocationController sharedInstance]];
+}
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    // Invoke super to startup all the services
+    [super application:application didFinishLaunchingWithOptions:launchOptions];
+
+    // Setup the view controllers
+    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
+    controller.managedObjectContext = [DataController sharedInstance].managedObjectContext;
+
+    return YES;
+}
+
 ```
 
 See the [header](SEJSONViewController/SEJSONViewController.h) for full documentation.
